@@ -50,7 +50,7 @@ In this code pattern, we will see how to monitor the performance and customer us
   - [5.3 Specify Cloudant credentials in MobileFoundation adapter](#53-specify-cloudant-credentials-in-MobileFoundation-adapter)
   - [5.4 Specify Cloud Object Storage credentials in MobileFoundation Adapter](#54-specify-cloud-object-storage-credentials-in-MobileFoundation-adapter)
   
-* [6. Deploy the MobileFoundation Adapters](#step-6-deploy-the-mfp-adapters-and-test-them)
+* [6. Deploy the MobileFoundation Adapters](#step-6-deploy-the-mobilefoundation-adapters)
   - [6.1 Build and Deploy the MobileFoundation adapters](#61-build-and-deploy-the-MobileFoundation-adapters)
   - [6.2 Launch MobileFoundation dashboard and verify adapter configurations](#62-launch-MobileFoundation-dashboard-and-verify-adapter-configurations)
   
