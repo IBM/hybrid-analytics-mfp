@@ -1,10 +1,14 @@
 # Gain actionable insights into Hybrid Apps using Mobile Foundation Analytics 
 
 The IBM® Mobile Foundation Analytics service provides key application usage and performance insights for mobile application developers and application owners. By using Mobile Analytics application owners and developers can understand what is happening on the user side, and they can use this insight to build better applications that are hyper-relevant to users and that stand out in the veritable sea of mobile applications. 
+
 The service includes the Mobile Analytics Console where developers and application owners can monitor mobile application performance, see usage statistics, and search device logs. 
-Mobile Analytics enables you to -
+Mobile Analytics enables you to,
+
 •	Monitor performance and usage of all your applications from your desktop or tablet. 
+
 •	Quickly identify trends and anomalies, drill down to resolve issues, and trigger alerts when key metrics cross critical thresholds. 
+
 In this code pattern, we will see how to monitor the performance and customer usage patterns of the ‘MyWard’ application. Also we will see how to create alerts during application crash scenarios.
 
 
@@ -46,11 +50,13 @@ In this code pattern, we will see how to monitor the performance and customer us
   - [5.3 Specify Cloudant credentials in MobileFoundation adapter](#53-specify-cloudant-credentials-in-MobileFoundation-adapter)
   - [5.4 Specify Cloud Object Storage credentials in MobileFoundation Adapter](#54-specify-cloud-object-storage-credentials-in-MobileFoundation-adapter)
   
-* [6. Deploy the MobileFoundation Adapters](#6-deploy-the-mfp-adapters-and-test-them)
+* [6. Deploy the MobileFoundation Adapters](#step-6-deploy-the-mfp-adapters-and-test-them)
   - [6.1 Build and Deploy the MobileFoundation adapters](#61-build-and-deploy-the-MobileFoundation-adapters)
   - [6.2 Launch MobileFoundation dashboard and verify adapter configurations](#62-launch-MobileFoundation-dashboard-and-verify-adapter-configurations)
   
 * [7. Run application on Android phone](https://github.com/IBM/Ionic-MFP-App#step-7-run-application-on-android-phone)
+* [8. Out of the box charts in MobileFoundation Analytics dashboard](#step-8-out-of-the-box-charts-in-mobilefoundation-analytics-dashboard)
+* [9. Custom charts in MobileFoundation Analytics dashboard](#step-9-custom-charts-in-mobilefoundation-analytics-dashboard)
 
 
 ## Prerequisite steps
@@ -60,9 +66,6 @@ This project builds on top of https://github.com/IBM/Ionic-MFP-App. Run followin
  * [Step 2. Create Cloudant database and populate it with sample data](https://github.com/IBM/Ionic-MFP-App#step-2-create-cloudant-database-and-populate-it-with-sample-data)
  * [Step 3. Create IBM Cloud Object Storage service and populate it with sample data](https://github.com/IBM/Ionic-MFP-App#step-3-create-ibm-cloud-object-storage-service-and-populate-it-with-sample-data)
  * [Step 4. Create Mobile Foundation service and configure MFP CLI](https://github.com/IBM/Ionic-MFP-App#step-4-create-mobile-foundation-service-and-configure-mfp-cli)
- 
-
-
 
 ## Step 5. Download source repo and customize
 
@@ -167,7 +170,7 @@ Verify MobileFoundation Adapter configuration as below:
 
 Follow the instructions in [Step 7](https://github.com/IBM/Ionic-MFP-App#step-7-run-application-on-android-phone) of base project to run the application on Android phone.
 
-## Step 8. Out of the box charts in MobileFoundation Analytics console
+## Step 8. Out of the box charts in MobileFoundation Analytics dashboard
 
 MobileFoundation Analytics comes with a set of out of the box charts that will help to monitor the usage and the performance of the applications deployed on MobileFoundation server. 
 Click open the 'Analytics console' tab in the MobileFoundation dashboard. Authentication may be required. The home screen of the Analytics console will look as the image below
@@ -266,12 +269,12 @@ Save the chart and adjust the time frame to see the information listed similar t
 To know the spread of types of device models used by customers the pie custom chart can be used.
 Click on the 'Create chart' option under the 'Custom charts' tab. Define the Flow chart as below
 
-<img src="doc/source/images/Analytics_devicemodel1.png" alt="Devicemodel1" width="640" border="10">
-<img src="doc/source/images/Analytics_devicemodel2.png" alt="Devicemodel2" width="640" border="10">
+<img src="doc/source/images/Analytics_DeviceModel1.png" alt="Devicemodel1" width="640" border="10">
+<img src="doc/source/images/Analytics_DeviceModel2.png" alt="Devicemodel2" width="640" border="10">
 
 Save the chart and adjust the time frame to see the information listed similar to what is shown below
 
-<img src="doc/source/images/Analytics_devicemodel3.png" alt="Devicemodel3" width="640" border="10">
+<img src="doc/source/images/Analytics_DeviceModel3.png" alt="Devicemodel3" width="640" border="10">
 
 
 

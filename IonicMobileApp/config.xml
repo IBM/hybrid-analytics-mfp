@@ -128,7 +128,7 @@
     <plugin name="cordova-plugin-file" spec="^5.0.0" />
     <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
     <plugin name="cordova-plugin-googlemaps" spec="^2.3.3">
-        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyB0deKcDe8bZatltG30uUJT5LzHgF-2aZM" />
+        <variable name="API_KEY_FOR_ANDROID" value="" />
         <variable name="PLAY_SERVICES_VERSION" value="15.0.1" />
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="26.1.0" />
         <variable name="API_KEY_FOR_IOS" value="(API_KEY_FOR_IOS)" />

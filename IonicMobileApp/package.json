@@ -70,7 +70,7 @@
             "cordova-plugin-file": {},
             "cordova-plugin-file-transfer": {},
             "cordova-plugin-googlemaps": {
-                "API_KEY_FOR_ANDROID": "AIzaSyB0deKcDe8bZatltG30uUJT5LzHgF-2aZM",
+                "API_KEY_FOR_ANDROID": "",
                 "PLAY_SERVICES_VERSION": "15.0.1",
                 "ANDROID_SUPPORT_V4_VERSION": "26.1.0",
                 "API_KEY_FOR_IOS": "(API_KEY_FOR_IOS)"
