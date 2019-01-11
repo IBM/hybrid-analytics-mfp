@@ -9,7 +9,7 @@ Mobile Analytics enables you to,
 
 •	Quickly identify trends and anomalies, drill down to resolve issues, and trigger alerts when key metrics cross critical thresholds. 
 
-In this code pattern, we will see how to monitor the performance and customer usage patterns of the ‘MyWard’ application. Also we will see how to create alerts during application crash scenarios.
+In this code pattern, we will see how to monitor the performance and customer usage patterns of the ‘MyWard’ application. Also we will see how to setup and trigger alerts for application crashes.
 
 
 ## Flow
@@ -230,8 +230,7 @@ In the 'MyWard' application, custom analytics data is sent to the MobileFoundati
 WL.Analytics.log({'username':  username}); 
 </code></pre>
 
-Such custom data (the keys) are available in the drop down menus when configuring the custom charts.
-A few of the custom charts of 'MyWard' application are listed below. 
+Such custom data (the keys) are available in the drop down menus when defining the custom charts.  There are different types of charts that can then be chosen and configured to plot the custome data.  A few of the custom charts of 'MyWard' application are listed below. 
 
 ## Table chart
 Tablechart is used to capture the `username` custom data and the corresponding device usage and the device os version. 
